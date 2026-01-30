@@ -51,16 +51,16 @@ ULE-Nimbus evolves beyond centralized models into a decentralized, autonomous in
 - Human-like behaviors secured by ULE's actor model and persistence
 
 ### Technical Backbone: The ULE Stack
-| Layer              | Technology                     | Purpose                                      |
-|--------------------|--------------------------------|----------------------------------------------|
-| Language           | UNYSL (.uny)                   | Statically typed canisters & logic           |
-| Runtime/Scripting  | d30.djs                        | Resilient frontend/backend JS-like code      |
-| Styling            | lofi.css                       | Fully programmable, reactive CSS             |
-| Templating         | petite                         | Type-safe templates for views & themes       |
-| Dev/Blockchain     | UNYTE                          | Local node + dev server                      |
-| Liquidity/Protocol | ULE-Protocol                   | NFT marketplace, zero-fee, instant liquidity |
-| Hosting/Cloud      | Aviyon Cloud                   | Serverless P2P nodes & persistence           |
-| Frontend           | React + TypeScript + Three.js  | Modern UI & 3D rendering                     |
+| Layer              | Technology                       | Purpose                                      |
+|--------------------|----------------------------------|----------------------------------------------|
+| Language           | UNYSL (.uny)                     | Statically typed canisters & logic           |
+| Runtime/Scripting  | d30.djs                          | Resilient frontend/backend JS-like code      |
+| Styling            | lofi.css                         | Fully programmable, reactive CSS             |
+| Templating         | ambient                          | Type-safe templates for views & themes       |
+| Dev/Blockchain     | UNYTE                            | Local node + dev server                      |
+| Liquidity/Protocol | ULE-Protocol                     | NFT marketplace, zero-fee, instant liquidity |
+| Hosting/Cloud      | Aviyon Cloud                     | Serverless P2P nodes & persistence           |
+| Frontend           | ambient/lofi + UNYSL + d30.djs   | Modern UI & 3D rendering                     |
 
 ## Inspiration: Guiding Lights of Aviyon
 
