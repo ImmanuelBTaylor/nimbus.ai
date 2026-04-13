@@ -159,7 +159,7 @@ Genera is being built as a sovereign **Mixture-of-Experts (MoE) + RAG** system u
 
 | Category                        | Components                                                                 | Purpose |
 |--------------------------------|----------------------------------------------------------------------------|---------|
-| **Core MoE / Reasoning Models** | Qwen3 series (Qwen3-235B-A22B), DeepSeek-V3 & DeepSeek-R1, Llama 4 variants, Mistral Large 3, Kimi K2.5 | High-performance reasoning, agentic capabilities, and efficient inference |
+| **Core MoE / Reasoning Models** | Cirrus 1, Qwen3 series (Qwen3-235B-A22B), DeepSeek-V3 & DeepSeek-R1, Llama 4 variants, Mistral Large 3, Kimi K2.5 | High-performance reasoning, agentic capabilities, and efficient inference |
 | **RAG & Orchestration**        | LangChain, LlamaIndex                                                      | Agentic workflows, tool calling, and structured reasoning pipelines |
 | **Vector Database**            | Chroma (primary), Haystack                                                 | Scalable semantic search and enterprise-grade retrieval |
 | **Embeddings**                 | sentence-transformers, Hugging Face Transformers                           | High-quality text embeddings for RAG and semantic understanding |
