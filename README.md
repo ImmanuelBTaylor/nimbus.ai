@@ -159,7 +159,7 @@ Genera is being built as a sovereign **Mixture-of-Experts (MoE) + RAG** system u
 
 | Category                        | Components                                                                 | Purpose |
 |--------------------------------|----------------------------------------------------------------------------|---------|
-| **Core MoE / Reasoning Models** | Cirrus 1, Qwen3 series (Qwen3-235B-A22B), DeepSeek-V3 & DeepSeek-R1, Llama 4 variants, Mistral Large 3, Kimi K2.5 | High-performance reasoning, agentic capabilities, and efficient inference |
+| **Core MoE / Reasoning Models** | Qwen3 series (Qwen3-235B-A22B), DeepSeek-V3 & DeepSeek-R1, Llama 4 variants, Mistral Large 3, Kimi K2.5 | High-performance reasoning, agentic capabilities, and efficient inference |
 | **RAG & Orchestration**        | LangChain, LlamaIndex                                                      | Agentic workflows, tool calling, and structured reasoning pipelines |
 | **Vector Database**            | Chroma (primary), Haystack                                                 | Scalable semantic search and enterprise-grade retrieval |
 | **Embeddings**                 | sentence-transformers, Hugging Face Transformers                           | High-quality text embeddings for RAG and semantic understanding |
@@ -167,8 +167,28 @@ Genera is being built as a sovereign **Mixture-of-Experts (MoE) + RAG** system u
 
 This architecture delivers **Perplexity-like cited answers** with full transparency, sovereignty, and the ability to evolve into more advanced agentic systems over time.
 
+### Cirrus 1 – Nimbus Supercloud Flagship Model
+
+**Cirrus 1** is Nimbus.ai’s proprietary flagship high-performance reasoning model, to be developed in-house by Aviyon AI designed to work **in addition to** the open-source ensemble and to eventually surpass the individual capabilities of Qwen3, DeepSeek, Llama 4, Mistral Large 3, and Kimi K2.5 through dedicated training, architectural innovations, and massive scale.
+
+**Current Development Status**
+- Built on top of the strongest open-source foundation models as a starting point
+- Leverages the Genera MoE + RAG architecture during early phases
+- Will evolve into a distinct, sovereign model family optimized specifically for Nimbus Supercloud workloads
+
+**Strategic Role**
+- Serves as the primary inference engine for complex, long-context, multi-step reasoning, and advanced agentic tasks
+- Handles the heaviest workloads within both **Genera 1.0** and **Genera Pro**
+- Dynamically routed by the orchestration layer based on query difficulty and available compute
+- Continuously improved using on-chain user feedback loops, synthetic data generation, and proprietary training runs on the global Nimbus Supercloud (HCFs)
+
+**Long-Term Vision**
+With dedicated funding and infrastructure, Cirrus 1 is positioned to become one of the world’s leading frontier reasoning models — fully sovereign, transparent in its development process, and deeply integrated with the ULE blockchain for persistent memory, agentic autonomy, and economic alignment.
+
+This dual approach (strong open-source ensemble + dedicated Cirrus 1 development) gives Nimbus.ai immediate high performance while building toward a uniquely powerful, self-owned intelligence layer.
+
 **Additional Features**  
-- Automatic intelligent routing between Genera 1.0 and Genera Pro  
+- Automatic intelligent routing between Genera 1.0, Genera Pro, and Cirrus 1  
 - Quality-of-Information Meter with on-chain verification  
 - OpenClaw & Warp protocols for seamless integration with creative tools (Blender, Kdenlive, etc.)
 
@@ -176,7 +196,9 @@ This architecture delivers **Perplexity-like cited answers** with full transpare
 
 ## Nimbus Supercloud -- Decentralized Compute
 
-**Nimbus Supercloud** is the decentralized compute layer that turns Nimbus.ai into a true **Supercloud** --- effectively decentralizing the entire traditional cloud ecosystem. It is purpose-built on the ULE blockchain and ULE-Protocol.
+**Nimbus Supercloud** is the decentralized compute layer that turns Nimbus.ai into a true **Supercloud** --- effectively decentralizing the entire traditional cloud ecosystem. It is purpose-built on the ULE blockchain and ULE-Protocol. 
+
+*Nimbus is based on the 1803 classification by Luke Howard; being the original Nimbus was defined specifically as the ultimate combination of all three forms cumulo + cirro + stratus.*
 
 Key capabilities include:
 
